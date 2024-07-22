@@ -1,0 +1,166 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+header .auth-buttons button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+header .auth-buttons .sign-in {
+    background-color: #fff;
+    border: 1px solid #333;
+    color: #333;
+}
+
+header .auth-buttons .join-now {
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+main {
+    padding: 20px;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.search-container input,
+.search-container select,
+.search-container .search-button {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+}
+
+.search-container .search-button {
+    background-color: #2196F3;
+    color: #fff;
+    cursor: pointer;
+}
+
+.search-results {
+    text-align: left;
+}
+
+.search-results h2 {
+    margin-bottom: 20px;
+}
+
+.result-card {
+    display: inline-block;
+    background-color: #fff;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 200px;
+}
+
+.result-card img {
+    width: 100%;
+    height: auto;
+}
+
+.result-card h3 {
+    margin: 10px 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+footer .footer-columns {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer .footer-columns div {
+    margin-right: 20px;
+}
+
+footer .footer-columns h4 {
+    margin-top: 0;
+}
+
+footer .footer-columns ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer .footer-columns ul li {
+    margin-bottom: 5px;
+}
+
+footer .subscribe {
+    display: flex;
+    align-items: center;
+}
+
+footer .subscribe input {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+}
+
+footer .subscribe button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+}
+
+footer p {
+    margin-top: 20px;
+    font-size: 14px;
+}
